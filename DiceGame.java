@@ -7,6 +7,11 @@ public class DiceGame {
 	int d1 = rnd.nextInt(6) + 1;
 	int d2 = rnd.nextInt(6) + 1;
 
+	System.out.println("What is your name?");
+	System.out.print(">");
+	Scanner scan = new Scanner(System.in);
+	String str = scan.next();
+	System.out.println("Hello, " + str + "!");
 
 	System.out.println("Rolling the dice...");
 	System.out.println("Die 1: " + d1);
