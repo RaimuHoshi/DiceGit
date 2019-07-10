@@ -23,5 +23,25 @@ public class DiceGame {
 	}else {
 	    System.out.println(str + " lost!");
 	}
+	switch (d1){
+	case 1:
+	    System.out.println("大吉");
+	    break;
+	case 2:
+	    System.out.println("吉");
+	    break;
+	case 3:
+	    System.out.println("中吉");
+	    break;
+	case 4:
+	    System.out.println("小吉");
+	    break;
+	case 5:
+	    System.out.println("凶");
+	    break;
+	case 6:
+	    System.out.println("凶");
+	    break;
+	}
     }
 }
